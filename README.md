@@ -8,7 +8,7 @@ Use this in an aosp tree by running `git clone https://github.com/bleedingedgean
 
 If you get `error: vendor/qcom/opensource/vibrator/aidl/Android.bp:4:1: "vendor.qti.hardware.vibrator.impl" depends on undefined module "qti_vibrator_hal_defaults"`, edit that Android.bp and remove "qti_vibrator_hal_defaults" from the defaults section
 
-If you get `build/make/core/base_rules.mk:338: error: packages/apps/ParanoidSense: MODULE.TARGET.SHARED_LIBRARIES.libmegface already defined by hardware/xiaomi/megvii.`, run `rm -rf hardware/xiaomi/megvil`
+If you get `build/make/core/base_rules.mk:338: error: packages/apps/ParanoidSense: MODULE.TARGET.SHARED_LIBRARIES.libmegface already defined by hardware/xiaomi/megvii.`, run `rm -rf hardware/xiaomi/megvii`
 
 ## Device specifications
 
