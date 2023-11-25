@@ -10,6 +10,13 @@ If you get `error: vendor/qcom/opensource/vibrator/aidl/Android.bp:4:1: "vendor.
 
 If you get `build/make/core/base_rules.mk:338: error: packages/apps/ParanoidSense: MODULE.TARGET.SHARED_LIBRARIES.libmegface already defined by hardware/xiaomi/megvii.`, run `rm -rf hardware/xiaomi/megvii`
 
+If you get issues with FM, apply these commits ( thanks to [Ascending](https://t.me/ascending2dev) for this):
+> vendor/aosp: https://github.com/PixelExperience/vendor_aosp/commit/6a23cfd3ad4ac795eb4fe0559dc6ac2b5b6ce505
+
+> vendor/qcom/opensource/interfaces: https://github.com/PixelExperience/vendor_qcom_opensource_interfaces/commit/0a1e8499b11c9c80a58510faa7f63e2d85ab831d
+
+> vendor/qcom/opensource/fm-commonsys: https://github.com/PixelExperience/vendor_qcom_opensource_fm-commonsys/commit/811cd5b96868d944572b2bd28b8740a6e8e90725
+
 ## Device specifications
 
  Device       | Xiaomi Redmi Note 11
