@@ -6,6 +6,8 @@ Redmi Note 11 was announced and released in January/February 2022.
 
 Use this in an aosp tree by running `git clone https://github.com/bleedingedgeandroid/device_xiaomi_spes.git device/xiaomi/spes`
 
+If you get `error: vendor/qcom/opensource/vibrator/aidl/Android.bp:4:1: "vendor.qti.hardware.vibrator.impl" depends on undefined module "qti_vibrator_hal_defaults"`, edit that Android.bp and remove "qti_vibrator_hal_defaults" from the defaults section
+
 ## Device specifications
 
  Device       | Xiaomi Redmi Note 11
