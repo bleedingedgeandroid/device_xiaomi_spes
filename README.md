@@ -4,6 +4,8 @@ The Xiaomi Redmi Note 11 (codenamed _"spes/spesn"_) is a mid range smartphone fr
 
 Redmi Note 11 was announced and released in January/February 2022.
 
+Use this in an aosp tree by running `git clone https://github.com/bleedingedgeandroid/device_xiaomi_spes.git device/xiaomi/spes`
+
 ## Device specifications
 
  Device       | Xiaomi Redmi Note 11
