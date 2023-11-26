@@ -15,7 +15,7 @@ $(call inherit-product, device/xiaomi/spes/device.mk)
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Product Specifics
-PRODUCT_NAME := blaze_spes
+PRODUCT_NAME := aosp_spes
 PRODUCT_DEVICE := spes
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 11
