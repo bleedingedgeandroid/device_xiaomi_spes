@@ -10,8 +10,8 @@ sleep 1
 rm -rf hardware/google/pixel/kernel_headers/Android.bp
 
 # Kernel & Vendor Sources
-git clone https://github.com/ProjectBlaze-Devices/vendor_xiaomi_spes vendor/xiaomi/spes
-git clone https://github.com/muralivijay/kernel_xiaomi_sm6225 kernel/xiaomi/sm6225
+git clone https://github.com/ProjectBlaze-Devices/vendor_xiaomi_spes vendor/xiaomi/spes -b 13
+git clone https://github.com/muralivijay/kernel_xiaomi_sm6225 kernel/xiaomi/sm6225 -b android-14
 
 # hardware sources
-git clone https://github.com/PixelExperience/hardware_xiaomi hardware/xiaomi
+git clone https://github.com/PixelExperience/hardware_xiaomi hardware/xiaomi -b thirteen
