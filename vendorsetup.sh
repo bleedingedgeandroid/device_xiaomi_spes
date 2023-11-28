@@ -20,7 +20,7 @@ echo ""
 
 
 # Kernel & Vendor Sources
-git clone https://github.com/ProjectBlaze-Devices/vendor_xiaomi_spes vendor/xiaomi/spes -b 13
+git clone https://github.com/redznn/android_vendor_xiaomi_spes vendor/xiaomi/spes -b 13.0
 git clone https://github.com/bleedingedgeandroid/kernel_xiaomi_sm6225 kernel/xiaomi/sm6225 -b uvite
 
 # hardware sources
