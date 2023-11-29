@@ -21,7 +21,16 @@ echo ""
 
 # Kernel & Vendor Sources
 git clone https://github.com/redznn/android_vendor_xiaomi_spes vendor/xiaomi/spes -b 13.0
+cd vendor/xiaomi/spes
+git pull
+cd ../../..
 git clone https://github.com/AOSPA/android_kernel_xiaomi_sm6225.git kernel/xiaomi/sm6225 -b uvite
+cd kernel/xiaomi/sm6225
+git pull
+cd ../../..
 
 # hardware sources
-git clone hhttps://github.com/aospa/android_hardware_xiaomi hardware/xiaomi -b uvite
+git clone https://github.com/aospa/android_hardware_xiaomi hardware/xiaomi -b uvite
+cd hardware/xiaomi
+git pull
+cd ../..
