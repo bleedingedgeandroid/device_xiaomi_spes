@@ -18,7 +18,7 @@
 
     <overlay
         android:isStatic="true"
-        android:priority="800"
+        android:priority="1000"
         android:requiredSystemPropertyName="ro.boot.hwname"
         android:requiredSystemPropertyValue="spesn"
         android:targetPackage="com.android.providers.settings" />
