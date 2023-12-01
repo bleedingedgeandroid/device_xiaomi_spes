@@ -19,7 +19,7 @@ echo ""
 echo ""
 
 # Kernel & Vendor Sources
-git clone https://github.com/redznn/android_vendor_xiaomi_spes vendor/xiaomi/spes -b 14.0
+git clone https://github.com/bleedingedgeandroid/vendor_xiaomi_spes vendor/xiaomi/spes -b 14.0
 cd vendor/xiaomi/spes
 git pull
 cd ../../..
