@@ -18,7 +18,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 $(call inherit-product-if-exists, vendor/miuicamera/config.mk)
 
 # Product Specifics
-PRODUCT_NAME := pixelos_spes
+PRODUCT_NAME := aosp_pes
 PRODUCT_DEVICE := spes
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 11

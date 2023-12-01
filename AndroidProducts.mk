@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pixelos_spes.mk
+    $(LOCAL_DIR)/aosp_spes.mk
 
 COMMON_LUNCH_CHOICES := \
-    pixelos_spes-user \
-    pixelos_spes-userdebug \
-    pixelos_spes-eng
+    aosp_spes-user \
+    aosp_spes-userdebug \
+    aosp_spes-eng
