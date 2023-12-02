@@ -29,7 +29,7 @@ git pull
 cd ../../..
 
 # hardware sources
-git clone https://github.com/aospa/android_hardware_xiaomi hardware/xiaomi -b uvite
+git clone https://github.com/PixelOS-AOSP/hardware_xiaomi hardware/xiaomi -b fourteen
 cd hardware/xiaomi
 git pull
 cd ../..
