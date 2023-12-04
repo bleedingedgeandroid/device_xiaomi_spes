@@ -465,6 +465,7 @@ PRODUCT_SOONG_NAMESPACES += \
 # Telephony
 PRODUCT_PACKAGES += \
     CarrierConfigOverlay \
+    CarrierConfig \
     extphonelib \
     extphonelib-product \
     extphonelib.xml \
