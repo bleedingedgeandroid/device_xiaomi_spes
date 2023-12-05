@@ -1,4 +1,4 @@
 runtime_resource_overlay {
     name: "SpesOverlay",
-    product_specifc: true,
+    product_specific: true,
 }
