@@ -1,4 +1,4 @@
 runtime_resource_overlay {
-    name: "ZenFone8Telephony",
-    vendor: true,
+    name: "SpesOverlay",
+    product_specifc: true,
 }
